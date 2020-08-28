@@ -1,0 +1,34 @@
+<nav>
+    <div class="navTitle">
+        <a href="/"><h1>Partage ton game ;)</h1></a>
+    </div>
+
+    <ul class="nav">
+
+        <%if (user) { %>
+
+        <li>
+            <a href="/article/create">Ajouter un article</a>
+        </li>
+    
+        <li>
+            <a href="/user/logout">Se deconnecter</a>
+        </li>
+
+        <li class="nameUser">
+            <h1>Bienvenue</h1>
+            <h2><%= user.name || user.firstName %></h2>
+        </li>
+        <% } else { %>
+            
+        <li>
+            <a href="/user/login">Se connecter</a>
+        </li>
+    
+        <li>
+            <a href="/user/create">S'inscrire</a>
+        </li>
+
+        <% } %>
+    </ul>
+</nav>

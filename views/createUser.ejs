@@ -1,0 +1,28 @@
+<div class="contentRegister">
+    <form action="/user/register" method="POST">
+        <div class="connexionRegister">
+
+            <h1>Rejoignez la team !</h1>
+
+            <div class="userRegister">
+
+                <%- include('./partials/messages') -%> 
+
+                <label for="" class="labelNameRegister">Votre pseudo :</label>
+                <input type="text" class="InputNameRegister" placeholder="Entrer votre email" name="name" value="<%= typeof name != "undefined" ? name : "" %>" >
+
+                <label for="" class="labelNameRegister">Votre Email :</label>
+                <input type="text" class="InputNameRegister" placeholder="Entrer votre email" name="email" value="<%= typeof name != "undefined" ? email : "" %>">
+
+                <label for="" class="labelNameRegister">Votre mot de passe :</label>
+                <input type="password" class="InputNameRegister" placeholder="Entrer votre mot de passe" name="password" value="<%= typeof name != "undefined" ? password : "" %>">
+
+                <label for="" class="labelNameRegister">Votre mot de passe :</label>
+                <input type="password" class="InputNameRegister" placeholder="Entrer votre mot de passe" name="password2" value="<%= typeof name != "undefined" ? password2 : "" %>">
+            </div>
+
+            <button class="buttonRegister">S'inscrire</button>
+   
+        </div>
+    </form>
+</div>
