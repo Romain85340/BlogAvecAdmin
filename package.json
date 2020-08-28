@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Romain85340/BlogWithAdmin.git"
+    "url": "git+https://github.com/Romain85340/BlogAvecAdmin.git"
   },
   "author": "Romain",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Romain85340/BlogWithAdmin/issues"
+    "url": "https://github.com/Romain85340/BlogAvecAdmin/issues"
   },
-  "homepage": "https://github.com/Romain85340/BlogWithAdmin#readme",
+  "homepage": "https://github.com/Romain85340/BlogAvecAdmin#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "connect-flash": "^0.1.1",
