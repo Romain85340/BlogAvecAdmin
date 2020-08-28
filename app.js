@@ -129,3 +129,11 @@ app.listen("1996", function(){
 
 
 
+
+
+///////////// fichiers keys.js a crée dans le dossier config  //////////////////////
+
+
+//     MongoURI = Connection a la base de donnée mongoDB
+//     GOOGLE_CLIENT_ID = Id client pour utilisé passport google
+//     GOOGLE_CLIENT_SECRET = Password client pour utilisé passport google
